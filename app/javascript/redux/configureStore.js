@@ -1,10 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit';
-import textSlice from './textSlice';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import greetingsReducer from './Greetings/greetingsReducer';
+
+const reducer = combineReducers({
+  greetings: greetingsReducer,
+});
 
 const store = configureStore({
-  reducer: {
-    text: textSlice,
-  },
+  reducer,
 });
 
 export default store;

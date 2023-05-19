@@ -1,48 +1,80 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h3><b>Hello Rails React</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello Rails React ](#-hello-rails-react-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Hello-world-rails-react   <a name="about-project"></a>
+# 📖 Hello Rails React <a name="about-project"></a>
 
-**Hello-world-rails-react** This project Ruby on Rails and React App that shows random languages greetings.
+**Hello Rails React** is a project that demonstrates how to build a Rails API with a React frontend.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- ruby on rails
-- postgresql
-- react
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby On Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Ruby on Rails and React App]**
-- **[Shows random languajes greetings]**
+- **Render Random messages**
+- **Rails API stores database**
+- **Webpack combiles JavaScript**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Not Availabe]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,44 +88,66 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Node js installed on your computer
-- Npm Node package manager
-- Terminal
-- Rails installed
-- Ruby installed
+```sh
+  ruby 3.2.1
+  rails
+  node
+  yarn
+```
 
 ### Setup
 
-Clone this repository by using the command line :
+Clone this repository to your desired folder:
 
-- `https://github.com/boo-shehab/hello-rails-react.git`
+Example commands:
+
+```sh
+  cd your-folder
+  git clone https://github.com/iamchristianani/hello-rails-react.git
+```
 
 ### Install
 
 Install this project with:
 
-`npm gemfile`
+Example command:
+
+```sh
+  cd my-project
+  bundle install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-`rails server`
+Example command:
+
+```sh
+  ./bin/dev or rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+Example command:
+
+```sh
+  bin/rails rspec
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Christian Ani**
 
-👤 **Ahmed Abas**
-
-- GitHub: [@boo-shehab](https://github.com/boo-shehab)
-- Twitter: [@boo_shehab2000](https://twitter.com/boo_shehab2000)
-- LinkedIn: [boo-shehab](https://www.linkedin.com/in/boo-shehab)
-
+- GitHub: [@iamchristianani](https://github.com/iamchristianani)
+- Twitter: [@kriznode](https://twitter.com/kriznode)
+- LinkedIn: [Christian Ani](https://www.linkedin.com/in/anikriz/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +155,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Displays random famous quotes]**
+- [x] **Add more greetings**
+- [x] **Add styles**
+- [x] **Add Header**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +167,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iamchristianani/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +175,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a star
+If you like this project please give it a ⭐️. Your support is greatly appreciated!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +183,7 @@ If you like this project please give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for helping me learn the required skills
+I would like to thank [Microverse](https://www.microverse.org/) for giving me this chance to learn how to build a Rails API with a React frontend.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
